@@ -1,0 +1,29 @@
+{
+  "name": "airplaneflightoptimizer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "End-to-end Flight Route Optimization system comparing Dijkstra's Algorithm and A* Search with Haversine distance, interactive world map visualization, Express API, and C++17 engine.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js",
+    "start": "node server/index.js",
+    "test": "node --test tests/*.test.js",
+    "benchmark": "node src/engine/runBenchmarkCli.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^8.3.8"
+  }
+}
